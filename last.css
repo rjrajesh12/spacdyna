@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(135deg, #ff5f6d, #e42b62);
+    padding: 280px 100px;
+} 
