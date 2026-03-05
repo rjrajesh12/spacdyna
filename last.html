@@ -2,26 +2,47 @@
 <html >
 <head>
     <title>SPACDYNA</title>
-    <link rel="stylesheet" a href="last.css">
-    <p class="home">
-    <a href="./index.html" > Home </a>
-    <a href="./about.html" >About </a>
-    <a href="./services.html" >Services </a>
-    </p>
+    <link rel="stylesheet" a href="./last.css">
+     <nav class="navbar">
+    <div class="logo">
+      <span class="blue">SPAC</span><span class="red">DYNA</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="./index.html" class="active">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./last.html">Message Us</a></li>
+    </ul>
+
+    <a href="#" class="contact-btn">Contact Now</a>
+  </nav>
 </head>
 <body>
     <section class="start">
-        <div >
-            <h2>Feel Free to Send Us A Message About Your Website Needs</h2><br>
+        <div class="para" >
+            <h1>Feel Free to Send Us A Message About Your Website Needs</h1><br>
             <p>Pain itself is love, it is the main thing of the adipiscing elite, but I give it time of this kind so that work and pains may occur.</p><br>
-            <p>For any enquiry, call us </p>
-           
+            <div class="call">
+                <span>For any enquiry, Call us: </span>
+                <div class="icon"><img src="./images/icon2.png" alt=""></div>
+                <span>010-020-0340</span>
+            </div>
         </div>
          <div class="end">
-                <label for="">
-                    <input type="text" placeholder="name">
-                </label>
+            <div class="form-row">
+                <input type="text" placeholder="Name" ><br>
+                <input type="text" placeholder="Surname" >
+            </div>
+                <input type="text" placeholder="Your Email" ><br><br>  
+                <textarea placeholder="Message"></textarea>
+                <button class="send-btn" >Send Message</button>      
             </div>
     </section>
+    <div class="foot">
+    <footer >© Copyright 2021 Space Dynamic Co. All Rights Reserved.<br>
+        <p>DESIGN: <span class="red"> rjTemplate</span></p>
+    </footer>
+    </div>
 </body>
 </html>
