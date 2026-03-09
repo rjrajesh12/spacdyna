@@ -142,3 +142,111 @@ input,textarea{
  .red{
     color: #ff0404;
 }
+.footer{
+    display: flex;
+    justify-items: center;
+    background: linear-gradient(75deg,#201f1f ,#4e4d4d44);
+    padding: 50px;
+    color: white;
+    max-width:1200px;
+    margin:auto;
+    height: 80vh;
+    border-radius: 14px;  
+    gap: 10px;
+}
+.footer li{
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+  color: #c9baba;
+  cursor: pointer;
+  gap: 10px;
+  line-height: 1.5;
+}
+.footer P{
+  display: flex;
+  align-items: left;
+  font-size: 15px;
+  font-weight: bold;
+  
+}
+.footer li:hover{
+  color: whitesmoke;
+}
+.last{
+  margin-left: 90px;
+ 
+}
+.last li a{
+   list-style: none;
+   text-decoration: none;
+   color: rgb(13, 49, 82);
+}
+.last li a:hover{
+  color: rgb(214, 206, 206);
+}
+.last h4{
+  font-size:25px ;
+  color: rgb(13, 49, 82) ;
+}
+.last li{
+  line-height: 2;
+  font-size: 25px;
+  
+}
+.third{
+  margin-left: 40px;
+}
+.third p{
+  color:  rgb(151, 201, 248) ;
+}
+.third li{
+  line-height: 1.3;
+  font-size: 20px;
+}
+.second{
+  margin-left: 40px;
+}
+.second p{
+  color:  rgb(151, 201, 248) ;
+}
+.second li{
+  line-height: 1.3;
+  font-size: 20px;
+}
+.first{
+  margin-left: 30px;
+}
+.first p{
+  color: rgb(151, 201, 248) ;
+}
+.first li{
+  line-height: 1.3;
+  font-size: 15px;
+}
+ .final{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  font-size: 20px;
+  background: #333;
+  border-radius: 15px;
+  width: 100%;
+  height: 10vh;
+  
+}
+.icon{
+  width: 60px;
+}
+
+.text h2{
+  margin: 0;
+  color: white;
+}
+
+.text p{
+  margin: 0;
+  color: white;
+  font-size: 14px;
+}

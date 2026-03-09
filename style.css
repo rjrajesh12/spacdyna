@@ -209,6 +209,9 @@ body {
   margin-left: 90px;
  
 }
+.last img{
+  display: grid;
+}
 .last li a{
    list-style: none;
    text-decoration: none;
