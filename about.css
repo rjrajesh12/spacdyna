@@ -129,23 +129,19 @@ a{
   margin-left: 90px;
  
 }
-.last li a{
+.last  a{
    list-style: none;
    text-decoration: none;
    color: rgb(13, 49, 82);
 }
-.last li a:hover{
+.last  a:hover{
   color: rgb(214, 206, 206);
 }
 .last h4{
   font-size:25px ;
   color: rgb(13, 49, 82) ;
 }
-.last li{
-  line-height: 2;
-  font-size: 25px;
-  
-}
+
 .third{
   margin-left: 40px;
 }
@@ -281,5 +277,19 @@ a{
     margin-top: 10px;
     font-size: 20px;
     line-height: 1.4;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
+.social span{
+    font-size: 20px;
 }
 
